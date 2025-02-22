@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wdth,wght@1,87.5,500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #fd2c2a;
+  transition: all cubic-bezier(0.23, 1, 0.32, 1) 1s;
+  /* background-color: #000; */
+  color: #110000;
+  font-family: 'Roboto', sans-serif;
+  
+  overflow: hidden;
+}
+
+
+canvas {
+  pointer-events: none;
+}
+
+span.growing {
+  background-color: #fd2c2a;
+}
+
+
+.roboto-custom {
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: italic;
+  font-variation-settings:
+    "wdth" 87.5;
+}
+
+.roboto-custom1 {
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 193;
+  font-style: italic;
+  font-variation-settings:
+    "wdth" 84.4;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+  scrollbar-width: none; /* Hide scrollbar for Firefox */
+}
