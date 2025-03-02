@@ -133,7 +133,7 @@ function App() {
               <h3 className="text-4xl  leading-[1.2]">
                 Welcome to <span className="text-4xl  text-white/70">'SpicyHeaven'</span> – The Ultimate Junk Food Paradise!
               </h3>
-              <p className="sm:text-3xl w-full sm:w-[80%]  text-gray-950 font-extralight italic  text-sm  mt-10">
+              <p className="sm:text-3xl w-full sm:w-[80%] font-extralight italic  text-sm  mt-10">
                 From blazing hot Carolina Reapers to zesty sriracha drizzles, we bring the heat that lingers. Dare to take a bite?              </p>
               <button className="rounded-lg  hover:bg-black hover:text-[#fd2c2a] hover:border-white mt-6 border-[1px] border-white/40 py-1 px-5">
                 Our Food
